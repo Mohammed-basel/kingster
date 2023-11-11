@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css bootstrap -->
+    <link rel="stylesheet" href="assets/vendor/bootstrap/bootstrap.min.css">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="assets/vendor/fontawesome/all.min.css">
+    <!-- custom css -->
+    <link rel="stylesheet" href="assets/css/Account.min.css">
+    <!-- title  icon -->
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.png">
+    <!-- title -->
+    <title>Account - Kingster Online Academy</title>
+</head>
+
+<body>
+    <!-- start loader -->
+    <div class="loading bg-white position-fixed vh-100 w-100 d-flex justify-content-center align-items-center z-3">
+        <span class="loader"></span>
+    </div>
+    <!-- end loader -->
+
+    <!--start navbar -->
+    <nav class="navbar navbar-expand-lg bg-white py-4 fixed-top z-2">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="assets/img/logo.png" width="160px" height="42px" alt="website logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="nav-links collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav m-auto mb-2 mb-lg-0 gap-4">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="index.html">
+                            HOME
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="AboutUs.html">ABOUT US</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="COURSES.html">COURSES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Blog.html">BLOG</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="CONTACT.html">CONTACT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Portfolio.html">PORTFOLIO</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <!--end navbar -->
+
+    <!-- start header -->
+    <section class="header  my-5">
+        <div class="header-overlay py-5">
+            <div class="header-div title d-flex justify-content-center align-content-center">
+                <h1 class="py-5 my-5 text-white">Log in / Register</h1>
+            </div>
+        </div>
+    </section>
+    <!-- end header -->
+
+    <!--  start Account section -->
+    <section class="Account pt-1 pb-0">
+        <div class="container">
+            <div class="row">
+                <div class="Login col-lg-5 col-md-12 offset-lg-1 shadow py-4 my-5 h-75">
+                    <div class="px-4 py-4">
+                        <h2 class="pt-2 py-3">Login</h2>
+                        <form class="pb-4">
+                            <label for="Email" class="w-100 pb-3">Username or email *</label>
+                            <input type="text" id="Email" class="w-100 shadow-none border-0"
+                                placeholder="Email or username">
+
+                            <Span class="position-relative">
+                                <label for="Password" class="w-100 pt-4 pb-3">Password *</label>
+                                <input type="password" id="Password" class="w-100" placeholder="Password">
+                                <span class="eye"><i class="fa-solid fa-eye"></i></span>
+                            </Span>
+                            <input type="checkbox" id="checkbox">
+                            <label for="checkbox" class="Remember-me py-4">Remember me</label><br>
+
+                            <button type="submit" class="border-0 text-white">Login</button>
+                        </form>
+                        <a href="#">Lost your password?</a>
+                    </div>
+                </div>
+                <div class="Register col-lg-5 col-md-12 ms-lg-5 shadow py-4 my-5">
+                    <div class="px-4 pt-4 pb-0">
+                        <h2 class="pt-2 py-3">Register</h2>
+                        <form class="pb-5">
+                            <label for="Email-address" class="w-100 pb-3">Email address *</label>
+                            <input type="text" id="Email-address" class="w-100 shadow-none border-0"
+                                placeholder="Email">
+
+                            <label for="Username" class="w-100 pt-4 pb-3">Username *</label>
+                            <input type="text" id="Username" class="w-100 shadow-none border-0" placeholder="Username">
+
+                            <Span class="Register-password">
+                                <label for="Register-Password" class="w-100 pt-4 pb-3">Password *</label>
+                                <input type="password" id="Register-Password" class="w-100" placeholder="Password">
+                                <span class="eye"><i class="fa-solid fa-eye"></i></span>
+                            </Span>
+
+                            <span class="Confirm-Password position-relative">
+                                <label for="confirm-password" class="w-100 pt-4 pb-3">Confirm Password *</label>
+                                <div class="input-group">
+                                    <input type="password" id="confirm-password" class="form-control"
+                                        placeholder="Password">
+                                    <span class="Confirm-eye"><i class="fa-solid fa-eye"></i></span>
+                                </div>
+                            </span>
+
+                            <button type="submit" class="mt-5 border-0 text-white">Register</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--  end Account section -->
+
+
+
+
+    <!-- start footer section -->
+    <section class="footer mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="logo col-lg-3 col-md-6 pe-4 py-4">
+                    <img src="assets/img/kingster-logo-footer.png" alt="website logo">
+                    <p class="pt-5">We aggregate courses from many universities to help you find the best courses on
+                        almost any subject, wherever they exist.</p>
+                </div>
+                <div class="Contacts col-lg-3 col-md-6 py-4">
+                    <h5 class="pb-2">Contacts</h5>
+                    <p class="ps-3">
+                        <span class="py-4">Mon – Fri: 8.00am 6.00pm</span><br>
+                        <span>112 W 34th St, New York</span><br>
+                        <span>(+1) 212-946-2707</span>
+                        <span>
+                            <a href="mailto:mohammedbasel410@gmail.com"
+                                class="text-decoration-none">mohammedbasel@gmail.com</a>
+                        </span>
+                    </p>
+                </div>
+                <div class="Links col-lg-3 col-md-6 py-4">
+                    <h5 class="pb-2 ps-2">Useful Links</h5>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <ul>
+                                <li><a href="#">Courses</a></li>
+                                <li><a href="#">Training</a></li>
+                                <li class="d-flex align-items-center">
+                                    <a href="#">Careers</a>
+                                    <div>
+                                        <span class="rounded-1 ms-2">HIRING</span>
+                                    </div>
+                                </li>
+                                <li><a href="#">Pricing</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <ul>
+                                <li><a href="#">Universities</a></li>
+                                <li><a href="#">Institutions</a></li>
+                                <li><a href="#">Havard</a></li>
+                                <li><a href="#">Stanford</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="language col-lg-3 col-md-6 ps-5 py-4">
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle rounded-1" type="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <img src="assets/img/lang-icon.png" alt="earth icon"> ENGLISH
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Espanol ESP</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+            <div class="bottom-footer pt-5 mt-3 py-4">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="Copyright">
+                            <p class="pt-3">Copyright All Right Reserved 2023, MohammedBasel</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mt-3">
+                        <div class="socials d-flex justify-content-end">
+                            <a href="#">
+                                <i class="fa-brands fa-facebook-f pe-4"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fa-brands fa-linkedin-in pe-4"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fa-brands fa-twitter pe-4"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- end footer section -->
+
+    <!-- js bootstrap -->
+    <script src="assets/vendor/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
