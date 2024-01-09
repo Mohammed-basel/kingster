@@ -8,3 +8,8 @@ This project is a detailed front-end replication of an educational website offer
 - **Enhanced CSS Effects:** Includes hover effects and shadow boxes to improve visual appeal and user interaction.
 - **Carousel:** Implemented using Bootstrap for a seamless and responsive image slideshow.
 - **Extensive Page Range:** The project encompasses 9 distinct pages, each showcasing different aspects of front-end development.
+
+ ## View the Project:
+
+Explore the live version of the website [here](https://mohammed-basel.github.io/kingster/).
+
